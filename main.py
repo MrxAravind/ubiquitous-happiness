@@ -60,8 +60,7 @@ demo = gr.Interface(
     ),
     outputs=gr.Textbox(label="Command Output"),
     title="Local Command Runner",
-    description="Run local shell commands with restricted permissions. Only specific safe commands are allowed.",
-    allow_flagging="never"
+    description="Run local shell commands with restricted permissions. Only specific safe commands are allowed."
 )
 
 # Launch the app locally
